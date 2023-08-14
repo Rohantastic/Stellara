@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: lightblue;
+     background-color: #1e1e1e; 
 
 }
 
@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(67, 65, 64);
+    background-color: black;
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -22,8 +22,10 @@ nav{
 }
 
 .logo{
-    width: 160px;
+    width: 112px;
     margin-right: 45px;
+    font-family: 'Baloo 2', cursive;
+    color: white;
 }
 
 .nav-left, .nav-right{
@@ -57,7 +59,8 @@ nav{
 }
 
 .search-box{
-    background-color: blanchedalmond;
+    caret-color: white;
+    
     width: 350px;
     border-radius: 20px ;
     display: flex;
@@ -70,6 +73,7 @@ nav{
 }
 
 .search-box input{
+    color: whitesmoke;
     width: 100%;
     background: transparent;
     padding: 10px;
@@ -96,7 +100,7 @@ nav{
 .container{
  display: flex;
  justify-content: space-between;
- padding: 13px 5%;   
+ padding: 70px 5%;   
 }
 
 .left-sidebar{
@@ -109,7 +113,7 @@ nav{
 }
 .right-sidebar{
     
-        background-color: brown;
+        
         flex-basis: 25%;
         position: sticky;
         top: 70px;
@@ -138,9 +142,14 @@ nav{
 }
 
 .imp-links a:last-child{
-    color: #d38612;
+    color: #626262;;
 }
 
 .imp-links{
     border-bottom: 1px solid grey;
+}
+
+
+.text{
+    color: whitesmoke;
 }
